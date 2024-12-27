@@ -1,0 +1,45 @@
+html{
+    font-family: Helvetica;
+}
+#button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #f736c6; /* Vert */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#button-container button:hover {
+    background-color: #681754; /* Vert plus sombre */
+    transform: scale(1.1);
+}
+
+#button-container button:active {
+    background-color: #2b0922; /* Encore plus sombre */
+    transform: scale(1.05);
+}
+
+#result{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#score{
+    display: flex;
+    justify-content: center;
+
+    
+    margin-top: 2rem;
+}
